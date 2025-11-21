@@ -3,9 +3,11 @@ body {
  }
 .outer-div{
  background-color: hsl(246, 80%, 60%);
+ 
 }
  .icon-div{
 background-color:hsl(235, 46%, 20%);
+
    }
 
    .rounded-5{
@@ -14,10 +16,11 @@ background-color:hsl(235, 46%, 20%);
    }
  .image-div{
   background-color: hsl(246, 80%, 60%);
-  height: 280px;
+  height: 300px;
  }
  .work-div{
  background-color:hsl(15, 100%, 70%);
+ height: 200px;
   .inner-div {
   height: 50px;              
   margin-bottom: -14px;    
@@ -31,6 +34,7 @@ display: flex;
 }
 .Play-div{
 background-color: hsl(195, 74%, 62%);
+height: 200px;
 .inner-div {
   height: 50px;              
   margin-bottom: -14px;    
@@ -41,6 +45,7 @@ background-color: hsl(195, 74%, 62%);
 }
  .Study-div {
 background-color:hsl(348, 100%, 68%);
+height: 200px;
 .inner-div {
   height: 50px;              
   margin-bottom: -14px;    
@@ -51,6 +56,7 @@ background-color:hsl(348, 100%, 68%);
 }
 .Exercise-div{
   background-color:hsl(145, 58%, 55%) ;
+  height: 200px;
   .inner-div {
   height: 50px;              
   margin-bottom: -14px;    
@@ -61,6 +67,7 @@ background-color:hsl(348, 100%, 68%);
 }
 .social-div{
    background-color:  hsl(264, 64%, 52%);
+  height: 200px;
 .inner-div {
   height: 50px;              
   margin-bottom: -14px;    
@@ -72,6 +79,7 @@ background-color:hsl(348, 100%, 68%);
  }
 .selfcare-div{
  background-color: hsl(43, 84%, 65%);
+ height: 200px;
   .inner-div {
   height: 50px;              
   margin-bottom: -14px;    
@@ -86,10 +94,11 @@ background-color:hsl(348, 100%, 68%);
   height: 200px;
   position: relative;
   z-index: 10;
+
   
 }
  .work-logo-div{
-background-color: hsl(246, 80%, 60%);
+background-color:  hsl(235, 46%, 20%);
 height: 200px;
 position: relative;
   z-index: 10;
@@ -105,12 +114,13 @@ top: 20px;
 font-weight:  300, 400, 500;
 
 
+
 }
  h1{
   color: white;
   padding-left: 14px;
  font-weight:  300, 400, 500;
- 
+ padding-top: 20px;
 
  }
  p{
@@ -120,13 +130,14 @@ margin: 0;
   display: flex;
   padding: 10px 15px;
 font-weight:  300, 400, 500;
+padding-bottom: 15px;
 }
 
 .click {
   color: white; 
   background-color: hsl(235, 46%, 20%); 
   display: flex;
-  margin-top: 20px; 
+  margin-top: 15px; 
   padding: 15px 15px 10px 15px;
   border: none;
   cursor: pointer;
@@ -141,7 +152,16 @@ justify-self: flex-end;
 
 padding-right: 14px;
 position: relative;
-  top: -40px; 
+  top: -50px; 
  }
+.ellipsis-div-logo{
+display: flex;
+justify-self: flex-end;
 
+padding-right: 14px;
+position: relative;
  
+
+}
+ 
+
