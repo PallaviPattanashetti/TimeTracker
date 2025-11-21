@@ -3,17 +3,12 @@ body {
  }
 .outer-div{
  background-color: hsl(246, 80%, 60%);
- 
-}
+ }
  .icon-div{
 background-color:hsl(235, 46%, 20%);
-
-   }
-
-   .rounded-5{
-    padding-top: 20px;
-    padding-left: 14px;
-    
+}
+ .rounded-5{
+padding-left: 14px;
    }
  .image-div{
   background-color: hsl(246, 80%, 60%);
@@ -22,6 +17,7 @@ background-color:hsl(235, 46%, 20%);
  .work-div{
  background-color:hsl(15, 100%, 70%);
  height: 200px;
+
   .inner-div {
   height: 50px;              
   margin-bottom: -14px;    
@@ -75,9 +71,7 @@ height: 200px;
   display: flex;
  justify-content: flex-end;
   padding-right: 14px;
-}
-
- }
+}}
 .selfcare-div{
  background-color: hsl(43, 84%, 65%);
  height: 200px;
@@ -88,23 +82,19 @@ height: 200px;
  justify-content: flex-end;
  padding-right: 14px;
 }
-
- }
+}
 .blue-div{
   background-color:  hsl(235, 46%, 20%);
   height: 200px;
   position: relative;
   z-index: 10;
-
-  
 }
  .work-logo-div{
 background-color:  hsl(235, 46%, 20%);
 height: 200px;
 position: relative;
   z-index: 10;
-
- }
+}
 h5{
  font-size: 18px;
 color: white;
@@ -113,17 +103,13 @@ display: flex;
 position: relative;
 top: 20px;
 font-weight:  300, 400, 500;
-
-
-
 }
  h1{
   color: white;
   padding-left: 14px;
  font-weight:  300, 400, 500;
  padding-top: 20px;
-
- }
+}
  p{
   color:white ;
   display: flex;
@@ -133,9 +119,8 @@ margin: 0;
 font-weight:  300, 400, 500;
 padding-bottom: 15px;
 }
-
 .click {
-  color: white; 
+ color: white; 
   background-color: hsl(235, 46%, 20%); 
   display: flex;
   margin-top: 15px; 
@@ -144,15 +129,12 @@ padding-bottom: 15px;
   cursor: pointer;
   font-weight:  300, 400, 500;
 }
-
 .click:hover {
-  color: lightblue;
+  color: hsl(246, 80%, 60%)
 }
-
 .ellipsis-logo{
   display: flex;
 justify-self: flex-end;
-
 padding-right: 14px;
 position: relative;
   top: -50px; 
@@ -160,11 +142,8 @@ position: relative;
 .ellipsis-div-logo{
 display: flex;
 justify-self: flex-end;
-
 padding-right: 14px;
 position: relative;
- 
-
-}
+ }
  
 
