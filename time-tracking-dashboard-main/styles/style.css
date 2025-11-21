@@ -155,3 +155,8 @@ position: relative;
  }
  
 
+.white-circle{
+  border: white solid 3px;
+  border-radius: 50px;
+
+}

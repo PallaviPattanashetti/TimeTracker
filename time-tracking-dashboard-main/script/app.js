@@ -114,7 +114,7 @@ function getMonthlyHours() {
     let selfcareMonthlyPrevious = data[5].timeframes.monthly.previous;
     selfcarePreviousTag.innerText = "Last Month - "+ selfcareMonthlyPrevious + " hrs";
 }
-
+getDailyHours()
 // buttons
 document.getElementById("DailyButton").addEventListener("click", getDailyHours);
 document.getElementById("WeeklyButton").addEventListener("click", getWeeklyHours);
