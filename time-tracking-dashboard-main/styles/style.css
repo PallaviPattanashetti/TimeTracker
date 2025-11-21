@@ -1,0 +1,147 @@
+body {
+ background-color: #161d2f;
+ }
+.outer-div{
+ background-color: hsl(246, 80%, 60%);
+}
+ .icon-div{
+background-color:hsl(235, 46%, 20%);
+   }
+
+   .rounded-5{
+    padding-top: 20px;
+    padding-left: 14px;
+   }
+ .image-div{
+  background-color: hsl(246, 80%, 60%);
+  height: 280px;
+ }
+ .work-div{
+ background-color:hsl(15, 100%, 70%);
+  .inner-div {
+  height: 50px;              
+  margin-bottom: -14px;    
+display: flex;
+ justify-content: flex-end;
+ padding-right: 14px;
+}
+}
+.inner-work{
+  background-color: blueviolet;
+}
+.Play-div{
+background-color: hsl(195, 74%, 62%);
+.inner-div {
+  height: 50px;              
+  margin-bottom: -14px;    
+  display: flex;
+ justify-content: flex-end;
+ padding-right: 14px;
+}
+}
+ .Study-div {
+background-color:hsl(348, 100%, 68%);
+.inner-div {
+  height: 50px;              
+  margin-bottom: -14px;    
+  display: flex;
+ justify-content: flex-end;
+ padding-right: 14px;
+}
+}
+.Exercise-div{
+  background-color:hsl(145, 58%, 55%) ;
+  .inner-div {
+  height: 50px;              
+  margin-bottom: -14px;    
+  display: flex;
+ justify-content: flex-end;
+ padding-right: 14px;
+}
+}
+.social-div{
+   background-color:  hsl(264, 64%, 52%);
+.inner-div {
+  height: 50px;              
+  margin-bottom: -14px;    
+  display: flex;
+ justify-content: flex-end;
+  padding-right: 14px;
+}
+
+ }
+.selfcare-div{
+ background-color: hsl(43, 84%, 65%);
+  .inner-div {
+  height: 50px;              
+  margin-bottom: -14px;    
+   display: flex;
+ justify-content: flex-end;
+ padding-right: 14px;
+}
+
+ }
+.blue-div{
+  background-color:  hsl(235, 46%, 20%);
+  height: 200px;
+  position: relative;
+  z-index: 10;
+  
+}
+ .work-logo-div{
+background-color: hsl(246, 80%, 60%);
+height: 200px;
+position: relative;
+  z-index: 10;
+
+ }
+h5{
+ font-size: 18px;
+color: white;
+padding-left: 14px;
+display: flex;
+position: relative;
+top: 20px;
+font-weight:  300, 400, 500;
+
+
+}
+ h1{
+  color: white;
+  padding-left: 14px;
+ font-weight:  300, 400, 500;
+ 
+
+ }
+ p{
+  color:white ;
+  display: flex;
+margin: 0;
+  display: flex;
+  padding: 10px 15px;
+font-weight:  300, 400, 500;
+}
+
+.click {
+  color: white; 
+  background-color: hsl(235, 46%, 20%); 
+  display: flex;
+  margin-top: 20px; 
+  padding: 15px 15px 10px 15px;
+  border: none;
+  cursor: pointer;
+  font-weight:  300, 400, 500;
+}
+
+
+
+.ellipsis-logo{
+  display: flex;
+justify-self: flex-end;
+
+padding-right: 14px;
+position: relative;
+  top: -40px; 
+ }
+
+ 

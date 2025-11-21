@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Time Tracker</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="/time-tracking-dashboard-main/styles/style.css">
+</head>
+
+<body>
+
+
+    <div class="container-fluid py-5">
+        <div class="row g-4">
+            <div class="col-12 col-md-3 col-lg-3">
+
+                <div class="icon-div rounded-4">
+                    <div class="image-div rounded-4 ">
+                        <img src="/time-tracking-dashboard-main/images/image-jeremy.png" class="rounded-5"
+                            alt="Profile Picture" width="80rem">
+                        <p>Report for</p>
+                        <h1>Jeremy<br>
+                            Robson</h1>
+                    </div>
+                    <div class="blue-div rounded-4 h-400">
+                        
+                        <button id="DailyButton" class="click">Daily</button>
+                    
+                        <button id="WeeklyButton" class="click">Weekly</button>
+                       
+                        <button id="MonthlyButton" class="click">Monthly</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-9">
+                <div class="row g-4">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="work-div rounded-4">
+                          
+                            <div class="inner-div rounded-4">
+                                <img src="/time-tracking-dashboard-main/images/icon-work.svg" class="rounded-5"
+                                    alt="work-logo" class="logo">
+                            </div>
+                            <div class="work-logo-div rounded-4 h-100">
+                                <h5>Work</h5>
+                                <p id="work-current"></p>
+                                <p id="work-previous"></p>
+                                <img src="/time-tracking-dashboard-main/images/icon-ellipsis.svg" class="ellipsis-logo"
+                                    alt="ellipsis-logo">
+                                <h1 id="work-current" class="display-4">  hrs</h1>
+                                <p id="work-previous" class="card-text">Last Week - hrs</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class=" Play-div rounded-4">
+                            <div class="inner-div rounded-4">
+                                <img src="/time-tracking-dashboard-main/images/icon-play.svg" class="rounded-5"
+                                    alt="Play-logo">
+                            </div>
+                            <div class="blue-div rounded-4 h-100">
+                                <h5 class="Tracker-title">Play</h5>
+                                <p id="play-current"></p>
+                                <p id="play-previous"></p>
+                                <img src="/time-tracking-dashboard-main/images/icon-ellipsis.svg" class="ellipsis-logo"
+                                    alt="ellipsis-logo">
+                                <h1 id="play-current" class="display-4">hrs</h1>
+                                <p id="play-previous" class="card-text">Last Week - hrs</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class=" Study-div rounded-4">
+                            <div class="inner-div rounded-4">
+                                <img src="/time-tracking-dashboard-main/images/icon-study.svg" class="rounded-5"
+                                    alt="study-logo">
+                            </div>
+                            <div class="blue-div rounded-4 h-100">
+                                <h5 class="Tracker-title">Study</h5>
+                                <p id="play-current"></p>
+                                <p id="play-previous"></p>
+                                <img src="/time-tracking-dashboard-main/images/icon-ellipsis.svg" class="ellipsis-logo"
+                                    alt="ellipsis-logo">
+                                <h1 id="study-current" class="display-4">32hrs</h1>
+                                <p id="study-previous" lass="card-text">Last Week - 36hrs</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="Exercise-div rounded-4">
+                            <div class="inner-div rounded-4">
+                                <img src="/time-tracking-dashboard-main/images/icon-exercise.svg" class="rounded-5"
+                                    alt="Exercise-logo">
+                            </div>
+                            <div class="blue-div rounded-4 h-100">
+                                <h5 class="Tracker-title">Exercise</h5>
+                                <p id="exercise-current"></p>
+                                <p id="exercise-previous"></p>
+                                <img src="/time-tracking-dashboard-main/images/icon-ellipsis.svg" class="ellipsis-logo"
+                                    alt="ellipsis-logo">
+                                <h1 class="display-4">hrs</h1>
+                                <p class="card-text">Last Week - hrs</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class=" social-div rounded-4">
+                            <div class="inner-div rounded-4">
+                                <img src="/time-tracking-dashboard-main/images/icon-social.svg" class="rounded-5"
+                                    alt="social-logo">
+                            </div>
+                            <div class="blue-div rounded-4 h-100">
+                                <h5 class="Tracker-title">Social</h5>
+                                <p id="social-current"></p>
+                                <p id="social-previous"></p>
+                                <img src="/time-tracking-dashboard-main/images/icon-ellipsis.svg" class="ellipsis-logo"
+                                    alt="ellipsis-logo">
+                                <h1 class="display-4">hrs</h1>
+                                <p class="card-text">Last Week - hrs</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="selfcare-div rounded-4">
+                            <div class="inner-div rounded-4">
+                                <img src="/time-tracking-dashboard-main/images/icon-self-care.svg" alt="selfcare-logo">
+                            </div>
+                            <div class="blue-div rounded-4 h-100">
+                                <h5 class="Tracker-title">Self Care</h5>
+                                <p id="selfcare-current"></p>
+                                <p id="selfcare-previous"></p>
+                                <img src="/time-tracking-dashboard-main/images/icon-ellipsis.svg" class="ellipsis-logo"
+                                    alt="ellipsis-logo">
+                                <h1 class="display-4">hrs</h1>
+                                <p class="card-text">Last Week - hrs</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script type="module" src="/time-tracking-dashboard-main/script/app.js"></script>
+</body>
+
+</html>
