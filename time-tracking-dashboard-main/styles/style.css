@@ -9,21 +9,9 @@ background-color:hsl(235, 46%, 20%);
 }
  .rounded-5{
 padding-left: 14px;
+padding-top: 20px;
    }
-   .rounded1-5{
-    padding-top: 10px;
-    padding-right: 14px;
-   }
-   .reporter{
-color:white ;
-  display: flex;
-
-padding-top: 70px;
- 
-font-weight:  300, 400, 500;
- }
- 
- 
+   
  .image-div{
   background-color: hsl(246, 80%, 60%);
   height: 300px;
