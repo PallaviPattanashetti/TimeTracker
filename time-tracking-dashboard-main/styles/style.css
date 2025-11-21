@@ -3,9 +3,11 @@ body {
  }
 .outer-div{
  background-color: hsl(246, 80%, 60%);
+
  }
  .icon-div{
 background-color:hsl(235, 46%, 20%);
+ max-width: 250px;
 }
  .rounded-5{
 padding-left: 14px;
