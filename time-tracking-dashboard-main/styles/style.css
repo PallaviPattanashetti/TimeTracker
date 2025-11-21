@@ -5,30 +5,27 @@ body {
  background-color: hsl(246, 80%, 60%);
 
  }
- .icon-div{
+.icon-div{
 background-color:hsl(235, 46%, 20%);
 
 }
- .rounded-5{
+.rounded-5{
 padding-left: 14px;
-
-   }
-   
- .image-div{
+} .image-div{
   background-color: hsl(246, 80%, 60%);
   height: 300px;
   padding-top: 20px;
- }
- .work-div{
- background-color:hsl(15, 100%, 70%);
+}
+.work-div{
+background-color:hsl(15, 100%, 70%);
  height: 200px;
 
-  .inner-div {
-  height: 50px;              
-  margin-bottom: -14px;    
+.inner-div {
+height: 50px;              
+margin-bottom: -14px;    
 display: flex;
- justify-content: flex-end;
- padding-right: 14px;
+justify-content: flex-end;
+padding-right: 14px;
 }
 }
 .inner-work{
@@ -38,52 +35,52 @@ display: flex;
 background-color: hsl(195, 74%, 62%);
 height: 200px;
 .inner-div {
-  height: 50px;              
-  margin-bottom: -14px;    
-  display: flex;
- justify-content: flex-end;
- padding-right: 14px;
+height: 50px;              
+margin-bottom: -14px;    
+display: flex;
+justify-content: flex-end;
+padding-right: 14px;
 }
 }
  .Study-div {
 background-color:hsl(348, 100%, 68%);
 height: 200px;
 .inner-div {
-  height: 50px;              
-  margin-bottom: -14px;    
-  display: flex;
- justify-content: flex-end;
- padding-right: 14px;
+height: 50px;              
+margin-bottom: -14px;    
+display: flex;
+justify-content: flex-end;
+padding-right: 14px;
 }
 }
 .Exercise-div{
-  background-color:hsl(145, 58%, 55%) ;
-  height: 200px;
-  .inner-div {
-  height: 50px;              
-  margin-bottom: -14px;    
-  display: flex;
- justify-content: flex-end;
+background-color:hsl(145, 58%, 55%) ;
+height: 200px;
+.inner-div {
+height: 50px;              
+ margin-bottom: -14px;    
+display: flex;
+justify-content: flex-end;
  padding-right: 14px;
 }
 }
 .social-div{
-   background-color:  hsl(264, 64%, 52%);
-  height: 200px;
+background-color:  hsl(264, 64%, 52%);
+height: 200px;
 .inner-div {
-  height: 50px;              
-  margin-bottom: -14px;    
-  display: flex;
- justify-content: flex-end;
-  padding-right: 14px;
+height: 50px;              
+margin-bottom: -14px;    
+display: flex;
+justify-content: flex-end;
+ padding-right: 14px;
 }}
 .selfcare-div{
  background-color: hsl(43, 84%, 65%);
  height: 200px;
-  .inner-div {
-  height: 50px;              
-  margin-bottom: -14px;    
-   display: flex;
+.inner-div {
+height: 50px;              
+ margin-bottom: -14px;    
+ display: flex;
  justify-content: flex-end;
  padding-right: 14px;
 }
@@ -119,11 +116,8 @@ font-weight:  300, 400, 500;
 }
  p{
   color:white ;
-  display: flex;
 margin: 0;
-  display: flex;
-  padding: 10px 15px;
-font-weight:  300, 400, 500;
+ padding: 10px 15px;
 padding-bottom: 15px;
  font-family: Rubik;
 }
@@ -153,9 +147,7 @@ justify-self: flex-end;
 padding-right: 14px;
 position: relative;
  }
- 
-
-.white-circle{
+  .white-circle{
   border: white solid 3px;
   border-radius: 50px;
 
