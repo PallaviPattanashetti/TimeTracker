@@ -17,6 +17,7 @@ padding-left: 14px;
  .image-div{
   background-color: hsl(246, 80%, 60%);
   height: 300px;
+  padding-top: 20px;
  }
  .work-div{
  background-color:hsl(15, 100%, 70%);
